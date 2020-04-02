@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import TimeTable from './TimeTable';
+import TimeTable from './containers/TimeTable';
 
 function App() {
   return (

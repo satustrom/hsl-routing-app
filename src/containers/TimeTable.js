@@ -3,7 +3,7 @@ import moment from 'moment';
 import styled from 'styled-components';
 import uniqid from 'uniqid';
 
-import useStopData from './useStopData';
+import useStopData from '../hooks/useStopData';
 
 const formattedTime = (time) => moment.unix(time).utc().format('HH:mm');
 
